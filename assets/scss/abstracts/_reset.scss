@@ -1,0 +1,86 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+html {
+	overflow-x: hidden;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+ul,
+ol,
+li,
+p {
+	padding: 0;
+	margin: 0;
+}
+
+ul,
+ol,
+li {
+	list-style: none;
+}
+
+input,
+button {
+	border: 0px;
+	&:focus {
+		outline: none;
+		box-shadow: none;
+	}
+}
+
+a {
+	text-decoration: none;
+}
+img {
+	max-width: 100%;
+}
+button {
+	display: inline-block;
+	background-color: transparent;
+}
+
+body {
+	font-weight: 400;
+	font-family: $f-primary;
+	background: #fff;
+	overflow: hidden;
+}
+#wrapper {
+	margin: 0 auto;
+	width: 100%;
+}
+
+@font-face {
+    font-family: 'Birdgo';
+    src: url('../fonts/Birdgo.eot');
+    src: url('../fonts/Birdgo.eot?#iefix') format('embedded-opentype'),
+        url('../fonts/Birdgo.woff2') format('woff2'),
+        url('../fonts/Birdgo.woff') format('woff'),
+        url('../fonts/Birdgo.ttf') format('truetype'),
+        url('../fonts/Birdgo.svg#Birdgo') format('svg');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'SweetiePotato';
+    src: url('../fonts/SweetiePotato.eot');
+    src: url('../fonts/SweetiePotato.eot?#iefix') format('embedded-opentype'),
+        url('../fonts/SweetiePotato.woff2') format('woff2'),
+        url('../fonts/SweetiePotato.woff') format('woff'),
+        url('../fonts/SweetiePotato.ttf') format('truetype'),
+        url('../fonts/SweetiePotato.svg#SweetiePotato') format('svg');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+
